@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY app.js .
 
-RUN npm install cross-spawn@7.0.5 --save
+RUN npm update cross-spawn
 
 EXPOSE 3000
 
